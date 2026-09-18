@@ -340,10 +340,13 @@ def main():
     episodes = load_json(EPISODES_FILE)
     locations = load_json(LOCATIONS_FILE)
 
+<<<<<<< HEAD
     characters.sort(key=lambda item: item["id"])
     episodes.sort(key=lambda item: item["id"])
     locations.sort(key=lambda item: item["id"])
 
+=======
+>>>>>>> e8e66a95eb7a37017dd598144619b69be73e5f72
     print(f"Personagens: {len(characters)}")
     print(f"Episódios:   {len(episodes)}")
     print(f"Localizações: {len(locations)}")
